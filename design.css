@@ -198,7 +198,13 @@ h1 {
 		justify-content: space-between;
 	}
 }
-img {
-    width: 500px;
+.layout2by2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.note img {
+    width: 100%;
     height: auto;
 }
